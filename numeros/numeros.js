@@ -8,10 +8,14 @@ let altura_m = 1.75;
 let peso_kg = 77.80;
 
 //Una variable que contenga tu altura en metros redondeada hacia arriba
-let alturaRedondeada = altura_m.toFixed(0);
+//let alturaRedondeada = altura_m.toFixed(0);
+
+let alturaRedondeada = Math.ceil(altura_m);
 
 //Una variable que contenga tu peso en kilogramos redondeado hacia abajo
-let pesoRedondeado = parseInt(peso_kg);
+//let pesoRedondeado = parseInt(peso_kg);
+
+let pesoRedondeado = Math.floor(peso_kg);
 
 /*
 Una variable que contenga si "el máximo valor que se puede obtener en 
