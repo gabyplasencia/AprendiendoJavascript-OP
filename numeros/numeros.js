@@ -17,6 +17,5 @@ let pesoRedondeado = parseInt(peso_kg);
 Una variable que contenga si "el máximo valor que se puede obtener en 
 Javascript + 1" es igual al máximo valor que se puede obtener en Javascript 
 */
+let sonIguales = Number.MAX_VALUE + 1 === Number.MAX_VALUE
 
-
-console.log(pesoRedondeado);
