@@ -16,7 +16,7 @@ const listaPeliculas = [
 
 //Una nueva lista que contenga las películas posteriores al 1 de enero de 2010 (utilizando filter)
 
-const pelicula = listaPeliculas.filter(peli => peli.fecha > new Date("february 10 2006"));
+const pelicula = listaPeliculas.filter(peli => peli.fecha > new Date("january 01 2010"));
 console.log(pelicula)
 
 //Una nueva lista que contenga los directores de la lista de películas original (utilizando map)
