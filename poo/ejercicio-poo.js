@@ -19,8 +19,9 @@ class Estudiante {
         }
     }
 }
-
+ //4-Crea una nueva instancia de "Estudiante"
 const alumno = new Estudiante("Gabriela" , ["Javascript", "HTML", "CSS"]);
 
+//5-Haz la llamada al método obtenDatos
 console.log(alumno.obtenDatos());
 
