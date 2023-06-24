@@ -1,5 +1,6 @@
 const allprf = document.querySelectorAll(".prf")
 const allsection = document.querySelectorAll(".section")
+const trash = document.querySelectorAll(".trash-can")
 
 allprf.forEach(prf => {
 
@@ -27,3 +28,16 @@ allsection.forEach (section => {
         section.appendChild(prf)
     })
 })
+
+trash.forEach(trashCan => {
+    trashCan.addEventListener("dragover", event => {
+        event.preventDefault()
+    })
+    trashCan.addEventListener("drop", event =>{
+        console.log(event.dataTransfer.getData("id"))
+        const id_prf = event.dataTransfer.getData("id")
+        const prf = document.getElementById(id_prf)
+        prf.remove()
+    })
+})
+
