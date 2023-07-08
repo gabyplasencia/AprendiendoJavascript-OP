@@ -1,3 +1,9 @@
-Aprendiendo Javascript básico con el curso de OpenBootcamp.
+Enlace: https://campus.open-bootcamp.com/login
 
-Completamente Javascript vanilla y con la ayuda de Quokka para previsualizar el programa.
+Idioma: Español
+
+Creador: OpenBootCamp
+
+Gratuito
+
+Certificado: Si
